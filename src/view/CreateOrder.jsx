@@ -58,7 +58,7 @@ export class CreateOrder extends Component {
                       <p className="txt-navi">Registro de Pedido</p>
                     </div>
                     <div>
-                      <button className="btn-count"><p className="txt-count">2/4</p></button>
+                      <button className="btn-count"><p className="txt-count">{step}/5</p></button>
                     </div>
                   </div>
               </Navbar.Brand>

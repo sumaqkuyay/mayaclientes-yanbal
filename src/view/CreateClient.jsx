@@ -110,7 +110,7 @@ export class CreateClient extends Component {
                       <p className="txt-navi">Registro de Cliente</p>
                     </div>
                     <div>
-                      <button className="btn-count"><p className="txt-count">2/4</p></button>
+                    <button className="btn-count"><p className="txt-count">{step}/7</p></button>
                     </div>
                   </div>
               </Navbar.Brand>
