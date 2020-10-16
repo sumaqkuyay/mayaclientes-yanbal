@@ -37,11 +37,13 @@ function Dashboard() {
                 <p className="txt-card">Estos productos podría interesarle a tus clientes.</p>
            
                 <div className="card">
-                 <p className="description-card">A María Santos, podría interesarle estos productos</p>
+                 <p className="description-card">A Natalia, podría interesarle estos productos</p>
                     <div className="div-items">
-                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071170-2b8ccc00-0e67-11eb-8613-071b328a064b.jpg' alt="imagen" /> 
-                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071166-2a5b9f00-0e67-11eb-9e17-4432c6b5154d.jpg' alt="imagen" /> 
-                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071048-fd0ef100-0e66-11eb-9da2-b148efcb2625.jpg' alt="imagen" /> 
+                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071205-3f383280-0e67-11eb-844e-e1f5d65e11b2.jpg' alt="imagen" /> 
+                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071212-4101f600-0e67-11eb-83ca-01966c4c92c8.jpg' alt="imagen" /> 
+                       <img className="img" src='https://user-images.githubusercontent.com/60890508/96071149-23349100-0e67-11eb-9c2c-512cee82285e.jpg
+' alt="imagen" /> 
+                      <img className="img" src='https://user-images.githubusercontent.com/60890508/96071197-39425180-0e67-11eb-92fd-d897c520f8fb.jpg' alt="imagen" /> 
                     </div>
                         <a href="https://wa.me/51992781141/?text=%C2%A1Hola Natalia! Creo que estos productos podrían interesarte y se adecuarán perfecto a tus preferencias! Y además están con un precio increíble!
 - Limpiador Energía Vital - S/ 80
