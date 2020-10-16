@@ -43,7 +43,12 @@ function Dashboard() {
                        <img className="img" src='https://user-images.githubusercontent.com/60890508/96071166-2a5b9f00-0e67-11eb-9e17-4432c6b5154d.jpg' alt="imagen" /> 
                        <img className="img" src='https://user-images.githubusercontent.com/60890508/96071048-fd0ef100-0e66-11eb-9da2-b148efcb2625.jpg' alt="imagen" /> 
                     </div>
-                        <a href="https://wa.me/51992781141/?text=%C2%A1Hola Natalia! Creo que estos productos podrian interesarte! y además estan con un precio increible! Limpiador Energia Vital - s/.80%0A%0Ahola%0A%0A" className="rounded icon-social"><img src={whatsapp} /></a>
+                        <a href="https://wa.me/51992781141/?text=%C2%A1Hola Natalia! Creo que estos productos podrían interesarte y se adecuarán perfecto a tus preferencias! Y además están con un precio increíble!
+- Limpiador Energía Vital - S/ 80
+- Gel Hidratante Energía Vital - S/ 90
+- BB Cream - S/ 58
+- BB Lips - S/ 45
+Coméntame si estás interesada! Feliz de asesorarte 🧡%0A%0A%0A%0A" className="rounded icon-social"><img src={whatsapp} /></a>
                         <a href="tel:910469991" className="rounded  icon-social1"><img src={llamada} /></a>
                 </div>
                 <div className="card">
