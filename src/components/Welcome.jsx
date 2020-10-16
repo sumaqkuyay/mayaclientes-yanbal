@@ -41,8 +41,8 @@ function Welcome() {
   return (
     <div className="div-welcome">
 
-      <button type="button" onClick={handleSend}>Send</button>
-      <h5 className="welcome-hi">¡Hola, ...!</h5>
+      {/* <button type="button" onClick={handleSend}>Send</button> */}
+      <h5 className="welcome-hi">¡Hola,Eliane!</h5>
       <p className="txt-p space-p txt-color-normal">Mira todo lo que tenemos para ti hoy:</p>
 
       <Link to="/client">
