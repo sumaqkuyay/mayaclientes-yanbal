@@ -11,7 +11,7 @@ import llamada from '../images/llamada.png';
 
 export class StepsOrder extends Component {
   render() {
-    const { inputChange, nextStep, prevStep, step,onChange,Order} = this.props;
+    const { inputChange, nextStep, prevStep, step, onChange, order, addNewOrder} = this.props;
     return (
       <>
        <div className="form-container" hidden={step === 1 ? false : true }>
@@ -19,7 +19,7 @@ export class StepsOrder extends Component {
                 <p className="txt-card">Ingresa el nombre del cliente.</p>
                 <hr/>
                 <div className="form-group form-register">
-            <input type="email" className="form-control input-register" placeholder="" name="email"/>
+                <input type="text" className="form-control input-register" placeholder="Ingresar nombre del cliente" name="name" onChange={inputChange('name')} value={order.name} />
             </div>
           </div>
           <br />
@@ -37,7 +37,7 @@ export class StepsOrder extends Component {
             <h1 className="mb-5">Ingresar monto del pedido</h1>
           </div>
           <div className="form-group form-register">
-            <input type="text" className="form-control input-register" placeholder="monto del pedido" name="name" onChange={inputChange('name')}  />
+          <input type="text" className="form-control input-register" placeholder="Ingresar Monto del pedido" name="amountPay" onChange={inputChange('amountPay')} value={order.amountPay} />
           </div>
           <br />
           <div className="div-btn btn-dorwn">
@@ -62,7 +62,7 @@ export class StepsOrder extends Component {
             <h1 className="mb-5">Ingresa monto a cobrar</h1>
           </div>
           <div className="form-group form-register">
-            <input type="email" className="form-control input-register" placeholder="Ingresar monto a cobrar" name="email" onChange={inputChange('email')} />
+            <input type="email" className="form-control input-register" placeholder="Ingresar monto a cobrar" name="amountCharge" onChange={inputChange('amountCharge')} value={order.amountCharge} />
           </div>
           <div className="div-btn btn-dorwn">
             <div className="">
@@ -90,7 +90,7 @@ export class StepsOrder extends Component {
             <div className="card">
               <CalendarOrder
               onChange={onChange}
-                  Order={Order}
+                  order={order}
               />
             </div>
            </div>
@@ -180,11 +180,22 @@ export class StepsOrder extends Component {
               </button>
             </div>
             <div className="">
-              <button className="btn btn-primary btn-form" onClick={nextStep}>
+              <button className="btn btn-primary btn-form" onClick={()=>{addNewOrder(order);nextStep();}}>
                 <p className="txt-btn-form">Registrar</p>
                 <img src={btnNext} className="icon-next-form" alt="icon-next-form" />
               </button>
             </div>
+          </div>
+        </div>
+
+        <div className="form-container" hidden={step === 7 ? false : true } >
+          <div className="">
+            <p>Tu Pedido se registró satisfactoriamente.</p>
+          </div>
+          <div className="modal-footer">
+            <Link to="/home">
+              <button type="button" className="btn btn-primary">¡OK!</button>
+            </Link>
           </div>
         </div>
      </>

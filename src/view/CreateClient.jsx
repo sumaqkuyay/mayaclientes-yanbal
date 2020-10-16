@@ -3,6 +3,7 @@ import { Navbar, Container } from 'react-bootstrap';
 import FormClient from '../components/FormClient';
 import iconBack from '../images/icon_back.png';
 import {addClient, getProducts } from '../controller/firestore';
+import { Link } from 'react-router-dom';
 
 export class CreateClient extends Component {
   constructor(props) {
@@ -100,8 +101,9 @@ export class CreateClient extends Component {
     return (
         <div className="">
           <Navbar expand="lg" variant="light" className="nav-bar">
-            <Container>    
-              <Navbar.Brand href="#">
+            <Container>  
+            <Link to="/home">
+              <Navbar.Brand>
                 <div className="div-header-reg">
                     <div>
                       <img src={iconBack} className="icon-back" alt="icon-back" />
@@ -114,6 +116,7 @@ export class CreateClient extends Component {
                     </div>
                   </div>
               </Navbar.Brand>
+            </Link>
             </Container>
           </Navbar>
           <FormClient
