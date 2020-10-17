@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mayaclientes-yanbal/static/css/main.f9c7d7d5.chunk.css",
-    "main.js": "/mayaclientes-yanbal/static/js/main.0a66a2f8.chunk.js",
-    "main.js.map": "/mayaclientes-yanbal/static/js/main.0a66a2f8.chunk.js.map",
+    "main.css": "/mayaclientes-yanbal/static/css/main.ded27f88.chunk.css",
+    "main.js": "/mayaclientes-yanbal/static/js/main.86c4ebe5.chunk.js",
+    "main.js.map": "/mayaclientes-yanbal/static/js/main.86c4ebe5.chunk.js.map",
     "runtime-main.js": "/mayaclientes-yanbal/static/js/runtime-main.25e37494.js",
     "runtime-main.js.map": "/mayaclientes-yanbal/static/js/runtime-main.25e37494.js.map",
     "static/css/2.293e860e.chunk.css": "/mayaclientes-yanbal/static/css/2.293e860e.chunk.css",
-    "static/js/2.ad7af461.chunk.js": "/mayaclientes-yanbal/static/js/2.ad7af461.chunk.js",
-    "static/js/2.ad7af461.chunk.js.map": "/mayaclientes-yanbal/static/js/2.ad7af461.chunk.js.map",
+    "static/js/2.958580f3.chunk.js": "/mayaclientes-yanbal/static/js/2.958580f3.chunk.js",
+    "static/js/2.958580f3.chunk.js.map": "/mayaclientes-yanbal/static/js/2.958580f3.chunk.js.map",
     "index.html": "/mayaclientes-yanbal/index.html",
-    "precache-manifest.d7823d570cd5fdbc45ae4b2a8d55a8a4.js": "/mayaclientes-yanbal/precache-manifest.d7823d570cd5fdbc45ae4b2a8d55a8a4.js",
+    "precache-manifest.8c656acf506bd682d694213b63037395.js": "/mayaclientes-yanbal/precache-manifest.8c656acf506bd682d694213b63037395.js",
     "service-worker.js": "/mayaclientes-yanbal/service-worker.js",
     "static/css/2.293e860e.chunk.css.map": "/mayaclientes-yanbal/static/css/2.293e860e.chunk.css.map",
-    "static/css/main.f9c7d7d5.chunk.css.map": "/mayaclientes-yanbal/static/css/main.f9c7d7d5.chunk.css.map",
-    "static/js/2.ad7af461.chunk.js.LICENSE.txt": "/mayaclientes-yanbal/static/js/2.ad7af461.chunk.js.LICENSE.txt"
+    "static/css/main.ded27f88.chunk.css.map": "/mayaclientes-yanbal/static/css/main.ded27f88.chunk.css.map",
+    "static/js/2.958580f3.chunk.js.LICENSE.txt": "/mayaclientes-yanbal/static/js/2.958580f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25e37494.js",
     "static/css/2.293e860e.chunk.css",
-    "static/js/2.ad7af461.chunk.js",
-    "static/css/main.f9c7d7d5.chunk.css",
-    "static/js/main.0a66a2f8.chunk.js"
+    "static/js/2.958580f3.chunk.js",
+    "static/css/main.ded27f88.chunk.css",
+    "static/js/main.86c4ebe5.chunk.js"
   ]
 }

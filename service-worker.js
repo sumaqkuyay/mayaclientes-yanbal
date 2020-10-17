@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mayaclientes-yanbal/precache-manifest.d7823d570cd5fdbc45ae4b2a8d55a8a4.js"
+  "/mayaclientes-yanbal/precache-manifest.8c656acf506bd682d694213b63037395.js"
 );
 
 self.addEventListener('message', (event) => {
