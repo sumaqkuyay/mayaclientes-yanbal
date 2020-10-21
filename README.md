@@ -88,12 +88,12 @@ Se tienen requisitos especiales,siga estos pasos.
 git clone https://github.com/sumaqkuyay/mayaclientes-yanbal.git
 ```
 ### Instalar las dependencias
-Para instalar las dependencias simplemente escriba esto y ejecute
+Para instalar las dependencias escriba lo siguiente y ejecute
 ```bash
 npm install
 ```
-#### Ejeutar el proyecto
-Para ejecutar el proyecto simplemente escriba esto y ejecute
+#### Ejecutar el proyecto
+Para ejecutar el proyecto escriba lo siguiente y ejecute
 ```bash
 npm start
 ```
