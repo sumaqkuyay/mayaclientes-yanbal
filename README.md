@@ -59,6 +59,7 @@ Opción 2: "A tus clientes le puede gustar"
 
 
 Muestra una lista de productos a fines al cliente, con el propósito de poder ofrecerlos vía llamada o mensaje de "WhatsApp", el mismo que enviará un mensaje automático con las características del producto directo al número del cliente.
+
 ![MensajeWhatsapp](src/images/readme/MensajeWhatsapp.jpeg)
 
 ## Prototipo de alta fidelidad
