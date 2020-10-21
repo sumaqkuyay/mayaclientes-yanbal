@@ -81,7 +81,7 @@ Mediante este enlace podrán visualizar la demo de este proyecto desplegada en g
 ## Instalación del proyecto
 Se tienen requisitos especiales,siga estos pasos.
 
-# Forquear el proyecto.
+## Forquear el proyecto.
 
 ## Clonar el proyecto
 ```bash
