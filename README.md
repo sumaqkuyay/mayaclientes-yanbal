@@ -100,7 +100,7 @@ npm start
 ```
 
 ## Despliegue del proyecto
-Para desplegar el proyecto es necesario ubicarse en la rama **master** y ejecutar lo siguiete:
+Para desplegar el proyecto es necesario ubicarse en la rama **master** y ejecutar lo siguiente:
 ```bash
 npm run deploy
 ```
