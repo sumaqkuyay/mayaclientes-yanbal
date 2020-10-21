@@ -8,7 +8,7 @@ A continuación detallaremos las funcionalidades y secciones de Maya clientes:
 - Cobranzas: Ayudará a que las y los consultores lleven un control de las deudas de sus clientes, registrando los productos vendidos e inclusive estableciendo fechas de pago.
 
 ## Contenido del proyecto.
-Este proyecto tiene tres ramas: gh-pages, master y sabidevelop. **master** Contiene los cambios ultimos cambios listos para desplegar **gh-pages** Es la rama donde corre el proyecto desplegado y **sabidevelop** Contiene las modificaciones que se realizan en el proyecto..
+Este proyecto tiene tres ramas: gh-pages, master y sabidevelop. **master** Contiene los ultimos cambios listos para desplegar **gh-pages** Es la rama donde corre el proyecto desplegado y **sabidevelop** Contiene las modificaciones que se realizan en el proyecto.
 
 ### LOGIN 
 Al iniciar se podrá encontrar la primera vista de login , donde el usuario se registra.
