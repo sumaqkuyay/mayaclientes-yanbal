@@ -1,5 +1,5 @@
 # MAYACLIENTES-YANBAL USANDO react.js
-Maya Clientes, es un app desarrollada en react, que tiene como objetivo que los y las consultoras de Yanbal puedan gestionar a sus clientes de manera rápida y sobre todo ordenada. 
+Maya Clientes, es un app desarrollada en react,sass,bootstrap usando firebase como backend. Tiene como objetivo que los y las consultoras de Yanbal puedan gestionar a sus clientes de manera rápida y sobre todo ordenada. 
 Este producto digital permitirá a las y los consultores registrar a sus clientes para conectar con ellos y  lograr fidelizarlos, mediante sus preferencias e historial de compra de productos. 
 A continuación detallaremos las funcionalidades y secciones de Maya clientes:
 - Recompra: Al registrar los pedidos de sus clientes, MAYA podrá enviarles una alerta cuando estos estén próximos a agotarse, en consecuencia las consultoras podrán tener ventas efectivas y además hará que sus clientes sientan una atención personalizada de parte de su asesora de belleza.
